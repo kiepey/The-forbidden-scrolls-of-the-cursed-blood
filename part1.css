@@ -8,7 +8,7 @@
 }
 body {
   font-family: 'EB Garamond', serif;
-  background: url('/images/Screenshot_20250309-033943.jpg') no-repeat center center fixed;
+  background: url('Screenshot_20250309-033943.jpg') no-repeat center center fixed;
   background-size: cover;
   background-attachment: fixed;
   color: white;
