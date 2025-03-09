@@ -10,7 +10,7 @@ html {
 }
 body {
   font-family: 'Roboto', sans-serif;
-  background: url('/images/Leonardo_Lightning_XL_Dark_fantasy_background_for_a_story_rela_3.jpg') no-repeat center center fixed;
+  background: url('Leonardo_Lightning_XL_Dark_fantasy_background_for_a_story_rela_3.jpg') no-repeat center center fixed;
   background-size: cover;
   color: #ccc;
   min-height: 100vh;
