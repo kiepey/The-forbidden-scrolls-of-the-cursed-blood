@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Forbidden Scrolls of the Cursed Blood</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-brand">The Forbidden Scrolls</div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <header class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>The Forbidden Scrolls of the Cursed Blood</h1>
+      <p class="tagline">A Dark Fantasy Epic Awaits</p>
+      <a href="reading.html" class="btn-primary">Begin Reading</a>
+    </div>
+  </header>
+
+  <!-- FOOTER with License Trigger -->
+  <footer class="main-footer">
+    <p id="licenseLink" class="license-text">© 2025 Kiepey. All rights reserved.</p>
+  </footer>
+
+  <!-- LICENSE MODAL -->
+  <div id="licenseModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>License & Rules</h2>
+      <p>
+        This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.
+        Unauthorized copying, modification, or distribution of this story is strictly prohibited.
+      </p>
+      <p>© 2025 Kiepey. All rights reserved.</p>
+    </div>
+  </div>
+
+  <!-- SCRIPT for Modal -->
+  <script>
+    const licenseLink = document.getElementById('licenseLink');
+    const licenseModal = document.getElementById('licenseModal');
+    const closeBtn = document.querySelector('.close');
+
+    licenseLink.onclick = () => {
+      licenseModal.style.display = 'block';
+    };
+    closeBtn.onclick = () => {
+      licenseModal.style.display = 'none';
+    };
+    window.onclick = (e) => {
+      if (e.target === licenseModal) {
+        licenseModal.style.display = 'none';
+      }
+    };
+  </script>
+
+</body>
+</html>

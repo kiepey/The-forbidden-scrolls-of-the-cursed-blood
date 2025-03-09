@@ -1,0 +1,134 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arial:ital,wght@0,400;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'EB Garamond', serif;
+  background: url('/images/abstract-uv-ultraviolet-light-composition_23-2149243965.jpg') no-repeat center center fixed;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  padding: 30px;
+  line-height: 1.8;
+}
+
+/* Container */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.subtitle {
+  font-size: 22px;
+  font-family: 'Arial', sans-serif;
+  color: grey;
+  font-style: italic;
+}
+
+.part-title {
+  font-size: 28px;
+  font-family: 'Arial', sans-serif;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+/* Story Text */
+.story-text {
+  font-size: 20px;
+  text-align: left;
+  font-style: italic;
+  margin-bottom: 25px;
+}
+
+.small-text {
+  font-size: 18px;
+  font-style: italic;
+}
+
+/* Intro Line */
+.intro {
+  font-size: 20px;
+  font-style: italic;
+  text-decoration: underline;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* Images */
+.story-image {
+  width: 110%;
+  margin: 45px 0;
+  text-align: center ;
+}
+
+.story-image img {
+  width: 110%;
+  border-radius: 10px;
+  box-shadow: 0 8px 15px rgba(255, 255, 255, 0.2);
+}
+
+figcaption {
+  font-size: 16px;
+  color: grey;
+  margin-top: 8px;
+  font-style: italic;
+}
+
+/* Navigation Buttons */
+.nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px 22px;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  border: 2px solid grey;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  background: transparent;
+  font-style: italic;
+}
+
+.btn:hover {
+  background-color: grey;
+  color: black;
+}
+
+.btn-next {
+  border-color: cyan;
+}
+
+.btn-next:hover {
+  background-color: cyan;
+  color: black;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    padding: 30px;
+  }
+  
+  .nav-buttons {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
