@@ -12,7 +12,7 @@ html {
 body {
   font-family: 'Merriweather', serif;
   color: #f0f0f0;
-  background: url('/images/Screenshot_20250309-023124.jpg') center center no-repeat;
+  background: url('Screenshot_20250309-023124.jpg') center center no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
